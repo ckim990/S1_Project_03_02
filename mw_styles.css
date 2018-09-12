@@ -1,5 +1,5 @@
 ﻿@charset "utf-8";
-
+/* Set to utf - 8 */
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -15,7 +15,7 @@
 
 
 /* Structural Styles */
-
+/* html bacground color set to a specific color. */
 html {
     background-color: rgb(173, 189, 227);
 }
@@ -24,6 +24,8 @@ body {
     background-color: rgb(227, 210, 173);
     font-family: 'Century Gothic', sans-serif;
 }
+
+/* set background color to a specified color. */
 
 body footer {
     background-color: rgb(208, 184, 109);
@@ -54,6 +56,8 @@ nav>ul {
     font-size: 0.9em;
 }
 
+/* pseudo elements set colors. */
+
 nav a:link,
 nav a:visited {
     text-decoration: none;
@@ -67,6 +71,8 @@ nav a:hover {
 
 
 /* Article Styles */
+
+/* set id's color and line spacing. */
 
 article#tour_summary h1 {
     font-size: 2.2em;
@@ -85,6 +91,8 @@ article#tour_summary>p:first-of-type::first-line {
 
 
 /* Aside Styles */
+
+/* set font sizes and color to specific id's. */
 
 aside#tour_itinerary h1 {
     font-size: 1.2em;
@@ -115,7 +123,7 @@ aside#tour_itinerary p:nth-of-type(odd) {
 }
 
 /* Blockquote Styles */
-
+/* set blockquote's color and padding. */
 blockquote {
     background-color: rgb(173, 189, 227);
     color: rgba(255, 255, 255, 0.65);
